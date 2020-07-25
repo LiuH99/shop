@@ -71,7 +71,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		        </div>
 		        <div class="field">
 <!-- 		          <input type="text" id="url1" name="ppic" class="input tips" style="width:25%; float:left;"  value="" data-toggle="hover" data-place="right" data-image="" data-validate="required:请输入产品图片"/> -->
-		          <input type="file" name="file" class="button bg-blue margin-left" id="image1" value=""  style="float:left;">
+		          <input type="file" name="upload" class="button bg-blue margin-left" id="image1" value=""  style="float:left;">
 		          
 		        </div>
 		      </div>

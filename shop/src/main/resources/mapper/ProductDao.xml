@@ -18,7 +18,7 @@
     </select>
 
     <insert id="insert" parameterType="Product" useGeneratedKeys="true">
-        insert into staff(pname,pprice,ppic,pcontent)
+        insert into product(pname,pprice,ppic,pcontent)
       values(#{pname},#{pprice},#{ppic},#{pcontent})
     </insert>
 
